@@ -1,0 +1,25 @@
+{
+    "contents" : "",
+    "created" : 1457815858037.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "52CF2AD3",
+    "lastKnownWriteTime" : 4317221376,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "iim2mba1la",
+        "caption" : "Crimes_._2001_to_present",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=Crimes_._2001_to_present&cache_key=iim2mba1la",
+        "displayedObservations" : 6012971,
+        "environment" : "",
+        "object" : "Crimes_._2001_to_present",
+        "totalObservations" : 6012971,
+        "variables" : 26
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}

@@ -1,0 +1,18 @@
+{
+    "contents" : "Crimes_._2001_to_present <- read.csv(\"~/Desktop/Crimes_-_2001_to_present.csv\")\n\nattach(Crimes_._2001_to_present)\n\n#Summary of crimes committed in Chicago with Date/Place/District/Type\nsummary(Crimes_._2001_to_present)\n\n#Location of Crimes\ntable(Location.Description)\n\n#This line gives us the perecntage of each crime\nnamesofloc <- names(sort(table(Location.Description),decreasing=TRUE)[1:6])\namtplaces <- (table(Location.Description)/nrow(Crimes_._2001_to_present))*100\nn <- length(amtplaces)\ntop6_1 <- c(sort(amtplaces,partial=n-1)[n-1], sort(amtplaces,partial=n-2)[n-2], sort(amtplaces,partial=n-3)[n-3], sort(amtplaces,partial=n-4)[n-4], sort(amtplaces,partial=n-5)[n-5], sort(amtplaces,partial=n-6)[n-6])\nbarplot(top6_1, main=\"Locations of crimes in Chicago (2001-2015)\", horiz=TRUE,  xlim=c(0, 20), names.arg=namesofloc)",
+    "created" : 1457816635625.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "171543579",
+    "id" : "2708CEF9",
+    "lastKnownWriteTime" : 1457819380,
+    "path" : "~/Desktop/Samarth/ProjectOnCrimeInsideChicago.R",
+    "project_path" : "ProjectOnCrimeInsideChicago.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "type" : "r_source"
+}
